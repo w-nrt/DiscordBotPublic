@@ -34,11 +34,6 @@ const bot = new Client({
 
 const BoutonL1Form = new ButtonBuilder().setCustomId('btn').setLabel("Demander l'accés au serveur").setStyle(ButtonStyle.Primary); // Button to access the form for my compsci grad server
 
-//Functions 
-
-function getRandomInt(max) { //use math.random to return a random signed int between 0 and max
-    return Math.floor(Math.random() * max);
-}
 
 //Main bot code
 
