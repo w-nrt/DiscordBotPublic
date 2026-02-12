@@ -64,5 +64,5 @@ CheckForUpdate(false) // whenever code is executed, so it doesnt add a "fake" ve
 //Check game version every minute.
 
 setInterval(() => {
-    checkUpdate(true);
+    CheckForUpdate(true);
 }, 60*1000);
