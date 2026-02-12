@@ -52,7 +52,7 @@ try {
     if (currentVersion != response.data.updatedAt && yesno) {
         post();
     }
-    currentVersion = response.data.updatedAt; 
+    currentVersion = response.data.updateTime; 
 } catch (error) {
 
     console.error("Connection failed:", error.response?.status || error.message);
