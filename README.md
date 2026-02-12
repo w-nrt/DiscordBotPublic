@@ -5,6 +5,7 @@ __Uses:__
 [discord.js](https://discord.js.org/)
 [.env
 ](https://dotenvx.com/docs/env-file)
+[axios](https://github.com/axios/axios)
 
-__Plan to use:__
-[axios](https://github.com/axios/axios) 
+
+ 
