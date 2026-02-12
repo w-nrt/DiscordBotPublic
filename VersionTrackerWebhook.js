@@ -49,7 +49,7 @@ try {
             'x-api-key': RobloxAPI 
         }
     });
-    if (currentVersion != response.data.updatedAt && yesno) {
+    if (currentVersion != response.data.updateTime && yesno) {
         post();
     }
     currentVersion = response.data.updateTime; 
